@@ -7,8 +7,8 @@ class CalcTest(TestCase):
 
     def test_integerNumbers(self):
         ''' Test Integer values '''
-        self.assertEqual(add(3 , 8) , 11)
+        self.assertEqual(add(3, 8), 11)
 
     def test_decimalNumbers(self):
         ''' Test decimal numbers '''
-        self.assertEqual(add(2.5 , 2.5) , 5.0)
+        self.assertEqual(add(2.5, 2.5), 5.0)
